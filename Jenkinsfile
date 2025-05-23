@@ -3,7 +3,7 @@
   
   stage('Clone'){
   
-  git branch: 'main', url: 'https://github.com/srinfotech7358/onlinebookstore.git'
+  git branch: 'master', url: 'https://github.com/srinfotech7358/onlinebookstore.git'
   }
 
   stage ('Build'){
